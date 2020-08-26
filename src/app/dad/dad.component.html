@@ -3,4 +3,4 @@
 >
 selem
 </p>
-<app-child [dataparent]="color"></app-child>
+<app-child (senddatatofather)="treatson($event)" [dataparent]="color"></app-child>

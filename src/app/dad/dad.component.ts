@@ -11,5 +11,8 @@ export class DadComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  treatson(message)
+  {
+    this.color=message;
+  }
 }
